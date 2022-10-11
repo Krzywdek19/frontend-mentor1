@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(255, 250, 250);
+
+
+    .wrapper {
+        width: 40%;
+        height: 80%;
+        background-color: #fff;
+        border-radius: 10px;
+
+
+        header {
+            position: relative;
+            height: 10%;
+
+            h1{
+                position: absolute;
+                font-size: 20px;
+                left: 4%;
+                top: 25%;
+
+                div {
+                    display: inline-block;
+                    background-color: royalblue;
+                    width: 30px;
+                    border-radius: 10px;
+                    text-align: center;
+                    color: #fff;
+                }
+            }
+
+            p{
+                position: absolute;
+                top: 35%;
+                right: 10%;
+                font-weight: 200;
+            }
+        }
+    }
+}
